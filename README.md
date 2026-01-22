@@ -4,9 +4,9 @@
 
 In this project, you will build a simple **Tic Tac Toe** game using React. Two players will take turns placing X's and O's on a 3x3 board. The game should:
 
+- Allow users to play a game of tic tac toe by clicking the board squares
 - Track whose turn it is  
-- Detect a winner  
-- Detect a draw  
+- Detect a winner / draw
 - Allow the game to be reset  
 
 ---
@@ -37,14 +37,6 @@ In this project, you will build a simple **Tic Tac Toe** game using React. Two p
 
 - Add a button that resets the board  
 - Reset player turns and move count  
-
----
-
-## Requirements
-
-- Use **React state** to track board, turns, and moves  
-- Use **event handling** for clicks on squares and reset button  
-- Use **conditional rendering** to show winner, draw, and next player  
 
 ---
 
