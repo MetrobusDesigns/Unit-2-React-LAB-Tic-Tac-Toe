@@ -15,7 +15,7 @@ In this project, you will build a simple **Tic Tac Toe** game using React. Two p
 
 ### 1. Board
 
-- Display a 3x3 grid  
+- Display a 3x3 grid (done for you)
 - Clicking a square places the current player's mark  
 
 ### 2. Player Turn
