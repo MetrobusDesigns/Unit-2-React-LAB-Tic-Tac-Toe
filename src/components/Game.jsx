@@ -10,29 +10,27 @@ const WINNING_LINES = [
 ]
 
 const Game = () => {
-  const initialBoard = Array(9).fill(null)
-  const [board, setBoard] = useState(initialBoard)
-  // TODO: create a boolean state to track whose turn it is (X goes first)
+  const [board, setBoard] = useState(Array(9).fill(null))
 
   const calculateWinner = (board) => {
     for (let i = 0; i < WINNING_LINES.length; i++) {
       // destructuring to access the winning lines
       const [a, b, c] = WINNING_LINES[i]
-      // TODO: check if board[a], board[b], and board[c] are equal and not empty
+      // TODO: find a way to verify if a winning line has been found
     }
     return null
   }
 
+  // derived from state, when the board changes (component re-renders) we check for a winner
   const winner = calculateWinner(board)
 
   // index comes from the Board component, the board is numbered 0-8
   const handleClick = (index) => {
-    // TODO: ignore the click if the square is filled or there is a winner
     // TODO: update the board at the clicked index with the current player
     // The board is just an array of 9 elements (not a matrix)
     // HINT: remember, to update arrays in react, we need to make a copy of the original array
+    // TODO: ignore the click if the square is filled or there is a winner
     // TODO: toggle the player boolean so the next turn switches
-    // TODO: increase the move counter by 1
   }
 
   const resetGame = () => {
