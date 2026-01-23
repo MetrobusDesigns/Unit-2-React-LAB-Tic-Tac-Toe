@@ -36,7 +36,7 @@ In this project, you will build a simple **Tic Tac Toe** game using React. Two p
 ### 5. Reset
 
 - Add a button that resets the board  
-- Reset player turns and move count  
+- Reset player turns and anything else that has been set
 
 ---
 
