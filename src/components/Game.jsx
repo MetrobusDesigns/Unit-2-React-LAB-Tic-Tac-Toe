@@ -30,12 +30,12 @@ const Game = () => {
     // The board is just an array of 9 elements (not a matrix)
     // HINT: remember, to update arrays in react, we need to make a copy of the original array
     // TODO: ignore the click if the square is filled or there is a winner
-    // TODO: toggle the player boolean so the next turn switches
+    // TODO: toggle the player so the next turn switches
   }
 
   const resetGame = () => {
     // TODO: reset the board to empty squares
-    // TODO: reset the player boolean to X
+    // TODO: reset the player to X
   }
 
   return (
