@@ -22,8 +22,8 @@ body {
   height: 100px;
   font-size: 2rem;
   cursor: pointer;
-  background-color: #fff;
-  border: 2px solid #333;
+  background-color: #bbb2b2;
+  border: 2px solid #0e0e0e;
   display: flex;
   align-items: center;
   justify-content: center;
